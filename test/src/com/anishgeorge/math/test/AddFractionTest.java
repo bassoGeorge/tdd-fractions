@@ -30,4 +30,10 @@ public class AddFractionTest {
         Fraction sum = new Fraction(4).plus(new Fraction(6));
         assertEquals(10, sum.intValue());
     }
+
+    @Test
+    public void negativeInputsWithNegativeOutput() {
+        Fraction sum = new Fraction(-3).plus(new Fraction(2));
+        assertEquals(-1, sum.intValue());
+    }
 }
