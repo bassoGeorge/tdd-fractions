@@ -3,7 +3,8 @@
 // backward compatible with whole numbers
 -- 0 + 0 = 0 // Kernel
 -- 1 + 0 = 1
-0 + 5 = 5
+-- 0 + 5 = 5
+-- 4 + 6 = 10
 
 // negatives
 3 + (-2) = 1
