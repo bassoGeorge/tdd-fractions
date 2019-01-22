@@ -1,0 +1,24 @@
+2/5 + 1/2 = 9/10
+
+// backward compatible with whole numbers
+-- 0 + 0 = 0 // Kernel
+-- 1 + 0 = 1
+0 + 5 = 5
+
+// negatives
+3 + (-2) = 1
+
+// common denominators
+2/5 + 1/5 = 3/5
+
+// reduction to 1
+2/3 + 1/3 = 1
+
+// negatives
+2/5 + (- 1/5) = 1/5
+2/5 + 1/-5 = 1/5
+
+// mixed denominators with common factor
+2/3 + 4/9 = 10 / 9
+
+equals?
